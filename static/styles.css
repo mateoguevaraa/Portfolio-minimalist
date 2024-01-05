@@ -1,0 +1,50 @@
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif; /* Default text font */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Headings font */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Alternate headings font */
+    color: rgba(0, 0, 0, 0.805);
+}
+
+.subheadings {
+    font-family: 'Open Sans', sans-serif; /* Subheadings font */
+}
+
+/* If needed, specify specific elements using Poppins */
+.special-text {
+    font-family: 'Poppins', sans-serif; /* Special text font */
+}
+
+.content {
+    margin: auto;
+    max-width: 47.5rem; 
+    padding: 1.5rem 1.45rem; 
+    font-size: 1.1rem; 
+    line-height: 34px; 
+    letter-spacing: 0.9px;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.842) !important;
+    font-weight: 600;
+}
+
+#acerca p {
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}

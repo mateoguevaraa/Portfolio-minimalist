@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta Tags básicos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título y descripción -->
+    <title>Mateo Guevara | Portafolio</title>
+    <meta name="description" content="Hola, soy Mateo Guevara y este es mi portafolio. En él van a poder ver mis proyectos,
+    mis conocimientos y educación.">
+
+    <!-- Favicon (Reemplaza 'favicon.ico' con tu archivo de favicon) -->
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+
+    <!-- Hojas de estilo CSS -->
+    <link rel="stylesheet" href="../static/styles.css"> <!-- Reemplaza 'styles.css' con tu hoja de estilos -->
+
+    <!-- Metaetiquetas SEO -->
+    <meta name="keywords" content="portafolio, mininmalista, desarrollador">
+    <meta name="author" content="Mateo Guevara">
+
+    <!-- Import Montserrat and Roboto for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Import Nunito, Lato, Open Sans, and Poppins for text -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/6b28a3ad3d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 60px;">
+            <div class="container-md" style="padding: 0px !important;">
+              <a class="navbar-brand align-items-center" href="#" style="padding-top: 8px;">Mateo Guevara</a>
+              <button class="navbar-toggler" style="border: none !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto nav-underline">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#acerca">Acerca de Mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <h1 style="font-weight: 600; margin-bottom: 30px;">Hola! soy Mateo.
+            <br>
+            <span style="color: rgba(0, 0, 0, 0.37);">Desarrollador Full-Stack y estudiante de Ingeniería Industrial.</span></h1>
+
+        <section id="acerca">
+
+          <p>En la universidad tuve mi primer acercamiento al mundo de la <span class="a8">programación.</span> 
+          <br>Me gustó tanto que me puse a estudiar y a capacitarme cada vez más.</p>
+
+          <p>Completé el curso "<span class="a5">CS50x</span>: Introduction to Computer Science" de <span class="a4">Harvard</span>, 
+            que proporcionó una sólida base en varios lenguajes de programación y me capacitó para crear aplicaciones web 
+            <br>
+            <span class="a6">full-stack.</span></p>
+
+          <p>Soy <span class="a2">curioso</span>, me fascina entender cómo funcionan las cosas y aplicar
+            ese conocimiento para <span class="a3">solucionar</span> problemas. Me motiva el <span class="a1">aprendizaje</span> continuo.</p> 
+
+          <p>Actualmente, busco una oportunidad como desarrollador para ingresar a la industria tecnológica. 
+            <br>
+            <a class="a7" href="">¿Querés contactarme?</a></p>
+
+        </section>
+    </div>
+
+
+
+
+
+
+    <script type="module">
+
+      import { annotate, annotationGroup } from 'https://unpkg.com/rough-notation?module';
+      
+      const n1 = document.querySelector('.a1');
+      const n2 = document.querySelector('.a2');
+      const n3 = document.querySelector('.a3');
+      const n4 = document.querySelector('.a4');
+      const n5 = document.querySelector('.a5');
+      const n6 = document.querySelector('.a6');
+      const n7 = document.querySelector('.a7');
+      const n8 = document.querySelector('.a8');
+      
+      const a1 = annotate(n1, { type: 'highlight', color: '#00ff005c'});
+      const a2 = annotate(n2, { type: 'highlight', color: '#ff00ff4e' });
+      const a3 = annotate(n3, { type: 'highlight', color: '#00ffff69'  });
+      const a4 = annotate(n4, { type: 'box', color: '#00ff005c'  });
+      const a5 = annotate(n5, { type: 'underline', color: '#00ffff69'  });
+      const a6 = annotate(n6, { type: 'highlight', color: '#ffff0076'  });
+      const a7 = annotate(n7, { type: 'circle', color: 'red', padding: 5});
+      const a8 = annotate(n8, { type: 'highlight', color: '#ff00ff4e' });
+
+      const ag = annotationGroup([a8, a5, a4, a6, a2, a3, a1, a7]);
+      ag.show();
+
+    </script>
+
+</body>
+
+</html>
