@@ -1,9 +1,56 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
+
+    .br-contact {
+        display: none;
+    }
+
+    .nav-header {
+        margin-top: 10px;
+    }
+
+    .line-izq {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        content: " ";
+        display: block;
+        position: fixed;
+        background: #000000;
+        z-index: 1000;
+    }
+    
+    .line-arriba {
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        content: " ";
+        display: block;
+        position: fixed;
+        background: #000000;
+        z-index: 1000;
+    }
+    
+    .line-abajo {
+        bottom: 0;
+        left: 0;
+        height: 20px;
+        width: 100%;
+        content: " ";
+        display: block;
+        position: fixed;
+        background: #000000;
+        z-index: 1000;
+    }
+
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
+    .br-contact {
+        display: none;
+    }
 }
 
 body {
@@ -17,6 +64,7 @@ h1, h2, h3 {
 p {
     font-family: 'Roboto', sans-serif; /* Alternate headings font */
     color: rgba(0, 0, 0, 0.805);
+    text-wrap: pretty;
 }
 
 .subheadings {
@@ -33,23 +81,66 @@ p {
     max-width: 40.5rem; 
     padding: 1.5rem 1.45rem; 
     font-size: 1.1rem; 
-    line-height: 34px; 
     letter-spacing: 0.9px;
+}
+
+#acerca a {
+    font-weight: 600;
 }
 
 a {
     text-decoration: none !important;
     color: rgba(0, 0, 0, 0.842) !important;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #acerca p {
     line-height: 1.4rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-bottom: 8px;
 }
 
 .pro {
     padding-left: 0px !important;
     padding-right: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fefefe;
+    border-left: 9px solid #000000;
+    border-right: 9px solid #000000;
+    border-top: 20px solid #000000;
+    border-bottom: 20px solid #000000;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+img {
+    background-size: cover;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#proyectos span.info {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.9rem; 
+    line-height: 2px !important;
+}
+
+button.linkedin:hover {
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.695) !important;
+    border-color: rgba(0, 0, 0, 0.562);
+}
+
+button.github:hover {
+    background-color: black !important;
+    color: white !important;
+    border-color: black;
 }

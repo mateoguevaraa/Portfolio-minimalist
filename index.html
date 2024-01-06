@@ -40,11 +40,17 @@
 
 </head>
 
+
 <body>
   
+  <div class="line-izq"></div>
+  <div class="line-arriba"></div>
+  <div class="line-abajo"></div>
+  
+
     <div class="content">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 45px;">
+      <header class="nav-header">
+        <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 35px;">
             <div class="container-md" style="padding: 0px !important;">
               <a class="navbar-brand align-items-center" href="#" style="padding-top: 8px;">Mateo Guevara</a>
               <button class="navbar-toggler" style="border: none !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,48 +72,103 @@
             </div>
           </nav>
       </header>
+
       <main>
         <header>
 
-          <h1 style="font-weight: 600; margin-bottom: 15px; font-size: 2.3rem;">Hola! soy Mateo.
+          <h1 style="font-weight: 600; font-size: 2.3rem; margin-bottom: 20px;">Hola! soy Mateo.
             <br>
-            <span style="color: rgba(0, 0, 0, 0.37);">Desarrollador Full-Stack y estudiante de Ingeniería Industrial.</span>
+            <span style="color: rgba(0, 0, 0, 0.526);">Desarrollador Full-Stack y estudiante de Ingeniería Industrial.</span>
           </h1>
+          <p>Soy una persona <span class="a6">curiosa</span>  en aprendizaje constante, 
+            combinando conocimientos para crear soluciones <span class="a2">innovadoras</span> y <span class="a4">eficaces.</span></p>
+          <div style="padding-top: 5px;"></div>
+          <a href="#acerca" style="font-weight: 400;">Más acerca de mí <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+          <br>
+          <div style="padding-top: 25px;"></div>
+          <div class="d-flex">
+            <button type="button" class="btn linkedin" style="background-color: black; color:white;">Ver LinkedIn</button>
+            <span style="padding-left: 0.8rem;"><a href=""><button type="button" class="btn github" style="border-color: rgba(0, 0, 0, 0.568); color: rgba(0, 0, 0, 0.667)">Ver Github</button></a></span>
+          </div>
+          
         </header>
 
-        <section id="acerca" style="margin-bottom: 30px;">
+        <section id="proyectos" style="margin-bottom: 30px; padding-top: 50px;">
+
+          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Proyectos</h4>
+
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-7 col-md-7 pro mb-4" style="padding-right: 15px !important; padding-top: 6px !important;">
+                <img class="shadow-sm" src="static/tasky-project-cover-2.webp" alt="portada del projecto Tasky-app">
+              </div>
+              <div class="col-lg-5 col-md-5 pro mb-4">
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Tasky App</span>
+                <br>
+                <div style="padding-top: 10px;"></div>
+                <span class="info">App de gestión de tareas para desarrolladores.
+                  Desarrollada con <strong style="opacity: 90%;">Python, Flask, SQLite, Bootstrap, JavaScript, CSS y HTML.</strong>
+                  <br>
+                  <div style="padding-top: 20px;"></div>
+                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                </span>
+              </div>
+              
+              <div class="col-lg-7 col-md-7 pro mb-4" style="padding-right: 15px !important; padding-top: 6px !important;">
+                <img class="shadow-sm" src="static/finance-cover.webp" alt="portada del projecto Finance del CS50">
+              </div>
+              <div class="col-lg-5 col-md-5 pro mb-4">
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Finance CS50</span>
+                <br>
+                <div style="padding-top: 10px;"></div>
+                <span class="info">
+                  Plataforma para simular la compra/venta de acciones con datos reales.
+                  <strong style="opacity: 90%;">Python, Flask, SQLite, Bootstrap, CSS y HTML.</strong>
+                  <br>
+                  <div style="padding-top: 20px;"></div>
+                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                </span>
+              </div>
+
+
+              <div class="col-lg-7 col-md-7 pro mb-3" style="padding-right: 15px !important; padding-top: 6px !important;">
+                <img class="shadow-sm" src="static/portfolio-cover-.webp" alt="portada del projecto Tasky-app">
+              </div>
+              <div class="col-lg-5 col-md-5 pro mb-3">
+                <span style="font-weight: 700; top: 0 !important; opacity: 97%;">Portfolio</span>
+                <br>
+                <div style="padding-top: 10px;"></div>
+                <span class="info">Portfolio personal, estilo minimalista.
+                  Desarrollado con <strong style="opacity: 90%;">Bootstrap, CSS y HTML.</strong>
+                  <br>
+                  <div style="padding-top: 20px;"></div>
+                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+        <section id="acerca" style="padding-top: 20px; margin-bottom: 30px;">
+
+          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Acerca de mí</h4>
 
           <p>En la universidad tuve mi primer acercamiento al mundo de la <span class="a8">programación.</span> 
           <br>Me gustó tanto que me puse a estudiar y a capacitarme cada vez más.</p>
 
-          <p>Completé el curso "<span class="a5">CS50x</span>: Introduction to Computer Science" de <span class="a4">Harvard</span>, 
-            que proporcionó una sólida base en varios lenguajes de programación y me capacitó para crear aplicaciones web 
-            <br>
-            <span class="a6">full-stack.</span></p>
+          <p>Completé el curso "<span class="a5">CS50x</span>: Introduction to Computer Science" de Harvard, 
+            que me proporcionó una sólida base en varios lenguajes de programación y me capacitó para crear aplicaciones web 
+            full-stack.</p>
 
-          <p>Soy <span class="a2">curioso</span>, me fascina entender cómo funcionan las cosas y aplicar
+          <p>Soy curioso, me fascina entender cómo funcionan las cosas y aplicar
             ese conocimiento para <span class="a3">solucionar</span> problemas. Me motiva el <span class="a1">aprendizaje</span> continuo.</p> 
 
           <p>Actualmente, busco una oportunidad como desarrollador para ingresar a la industria tecnológica. 
-            <br>
+            <br class="br-contact">
             <a class="a7" href="">¿Querés contactarme?</a></p>
-
-        </section>
-
-        <section id="proyectos" style="margin-bottom: 30px;">
-
-          <h4 style="margin-bottom: 15px;">Proyectos</h4>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-7 pro mb-3" style="padding-right: 15px !important;">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
-              <div class="col-5 pro mb-3">.col-6<br>Subsequent columns continue along the new line.</div>
-              <div class="col-7 pro mb-3" style="padding-right: 15px !important;">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
-              <div class="col-5 pro mb-3">.col-6<br>Subsequent columns continue along the new line.</div>
-              <div class="col-7 pro mb-3" style="padding-right: 15px !important;">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
-              <div class="col-5 pro mb-3">.col-6<br>Subsequent columns continue along the new line.</div>
-            </div>
-          </div>
 
         </section>
 
@@ -141,22 +202,22 @@
       const a1 = annotate(n1, { type: 'highlight', color: '#3be37332'});
       const a2 = annotate(n2, { type: 'highlight', color: '#97e72e51' });
       const a3 = annotate(n3, { type: 'highlight', color: '#33f3432f'  });
-      const a4 = annotate(n4, { type: 'box', color: '#f3e6335b'  });
+      const a4 = annotate(n4, { type: 'highlight', color: '#f3e6335b'  });
       const a5 = annotate(n5, { type: 'underline', color: '#48d800d5'  });
-      const a6 = annotate(n6, { type: 'highlight', color: '#f0e1105b'  });
+      const a6 = annotate(n6, { type: 'highlight', color: '#58f74947'  });
       const a7 = annotate(n7, { type: 'circle', color: '#33f3433d', padding: 5});
       const a8 = annotate(n8, { type: 'highlight', color: '#aeeb0835' });
 
-      const ag = annotationGroup([a8, a5, a4, a6, a2, a3, a1, a7]);
+      const ag = annotationGroup([a6, a2, a4, a8, a5, a3, a1, a7]);
       ag.show();
 
     </script>
 
 <style>
-  .añ{
-    color:   #33f3432f
-  }
 
+  n{
+    color: #12eb1647;
+  }
 </style>
 </body>
 
