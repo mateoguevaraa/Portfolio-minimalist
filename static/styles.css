@@ -1,9 +1,5 @@
 @media screen and (min-width: 1025px) {
 
-    .br-contact {
-        display: none;
-    }
-
     .nav-header {
         margin-top: 10px;
     }
@@ -48,9 +44,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .br-contact {
-        display: none;
-    }
+    
 }
 
 body {
@@ -133,14 +127,18 @@ img {
     line-height: 2px !important;
 }
 
-button.linkedin:hover {
-    background-color: white !important;
-    color: rgba(0, 0, 0, 0.695) !important;
-    border-color: rgba(0, 0, 0, 0.562);
+button.github:hover {
+    background-color: rgba(0, 0, 0, 0.707) !important;
+    color: rgb(255, 255, 255) !important;
+    border-color: rgba(0, 0, 0, 0.022) !important;
 }
 
-button.github:hover {
-    background-color: black !important;
-    color: white !important;
-    border-color: black;
+button.cv:hover {
+    background-color: rgba(232, 232, 232, 0.255) !important;
+    color: rgba(0, 0, 0, 0.73) !important;
+    border-color: rgba(198, 198, 198, 0.401) !important;
+}
+
+#descripción p {
+    color:rgba(0, 0, 0, 0.707)
 }

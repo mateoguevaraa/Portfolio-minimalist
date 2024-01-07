@@ -52,7 +52,7 @@
       <header class="nav-header">
         <nav class="navbar navbar-expand-lg navbar-expand-md d-flex align-items-center" style="margin-bottom: 35px;">
             <div class="container-md" style="padding: 0px !important;">
-              <a class="navbar-brand align-items-center" href="#" style="padding-top: 8px;">Mateo Guevara</a>
+              <a class="navbar-brand align-items-center" href="index.html" style="padding-top: 8px;">Mateo Guevara</a>
               <button class="navbar-toggler" style="border: none !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
               </button>
@@ -87,8 +87,8 @@
           <br>
           <div style="padding-top: 25px;"></div>
           <div class="d-flex">
-            <button type="button" class="btn linkedin" style="background-color: black; color:white;">Ver LinkedIn</button>
-            <span style="padding-left: 0.8rem;"><a href=""><button type="button" class="btn github" style="border-color: rgba(0, 0, 0, 0.568); color: rgba(0, 0, 0, 0.667)">Ver Github</button></a></span>
+            <a href="https://github.com/mateoguevaraa" target="_blank"><button type="button" class="btn github" style="background-color: black; color:white;">Ver Github</button></a>
+            <span style="padding-left: 0.8rem;"><a href=""><button type="button" class="btn cv" style="border-color: rgba(0, 0, 0, 0.568); color: rgba(0, 0, 0, 0.667)">Descargar CV</button></a></span>
           </div>
           
         </header>
@@ -108,10 +108,10 @@
                 <br>
                 <div style="padding-top: 10px;"></div>
                 <span class="info">App de gestión de tareas para desarrolladores.
-                  Desarrollada con <strong style="opacity: 90%;">Python, Flask, SQLite, Bootstrap, JavaScript, CSS y HTML.</strong>
+                  <strong style="opacity: 90%;">Python, Flask, SQLite, Jinja2, Bootstrap, JavaScript, CSS y HTML.</strong>
                   <br>
                   <div style="padding-top: 20px;"></div>
-                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                  <a href="tasky.html">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
                 </span>
               </div>
               
@@ -123,11 +123,11 @@
                 <br>
                 <div style="padding-top: 10px;"></div>
                 <span class="info">
-                  Plataforma para simular la compra/venta de acciones con datos reales.
-                  <strong style="opacity: 90%;">Python, Flask, SQLite, Bootstrap, CSS y HTML.</strong>
+                  Plataforma que simula la compra/venta de acciones.
+                  <strong style="opacity: 90%;">Python, Flask, Jinja2, SQLite, Bootstrap, CSS y HTML.</strong>
                   <br>
                   <div style="padding-top: 20px;"></div>
-                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                  <a href="finance.html">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
                 </span>
               </div>
 
@@ -140,10 +140,10 @@
                 <br>
                 <div style="padding-top: 10px;"></div>
                 <span class="info">Portfolio personal, estilo minimalista.
-                  Desarrollado con <strong style="opacity: 90%;">Bootstrap, CSS y HTML.</strong>
+                  Desarrollado con <strong style="opacity: 90%;">JavaScript, Bootstrap, CSS y HTML.</strong>
                   <br>
                   <div style="padding-top: 20px;"></div>
-                  <a href="">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
+                  <a href="portfolio.html">Leer más <i class="fa-solid fa-arrow-right-long fa-sm"></i></a>
                 </span>
               </div>
 
@@ -156,6 +156,7 @@
 
           <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Acerca de mí</h4>
 
+          <p>Soy un desarrollador y estudiante de <span class="a9">Arg</span>e<span class="a11">n</span>ti<span class="a13">na.</span></p>
           <p>En la universidad tuve mi primer acercamiento al mundo de la <span class="a8">programación.</span> 
           <br>Me gustó tanto que me puse a estudiar y a capacitarme cada vez más.</p>
 
@@ -166,15 +167,17 @@
           <p>Soy curioso, me fascina entender cómo funcionan las cosas y aplicar
             ese conocimiento para <span class="a3">solucionar</span> problemas. Me motiva el <span class="a1">aprendizaje</span> continuo.</p> 
 
-          <p>Actualmente, busco una oportunidad como desarrollador para ingresar a la industria tecnológica. 
-            <br class="br-contact">
-            <a class="a7" href="">¿Querés contactarme?</a></p>
+          <p>Actualmente, busco una oportunidad como desarrollador para ingresar a la industria tecnológica.</p>
 
         </section>
 
-        <section id="contacto">
+        <section id="contacto" style="padding-top: 20px; margin-bottom: 30px;">
 
-          <h4 style="margin-bottom: 15px;">Contacto</h4>
+          <h4 class="subheadings" style="font-family: 'Montserrat', sans-serif; margin-bottom: 15px; font-size: 1.2rem; font-weight: 600;">Contacto</h4>
+
+          <p><a href="mailto:mateoaguevara@gmail.com">mateoaguevara@gmail.com</a></p>
+          <p><a href="https://github.com/mateoguevaraa" target="_blank">Github</a></p>
+          <p><a href="https://www.linkedin.com/in/mateo-guevara-/" target="_blank">LinkedIn</a></p>
 
         </section>
 
@@ -196,29 +199,27 @@
       const n4 = document.querySelector('.a4');
       const n5 = document.querySelector('.a5');
       const n6 = document.querySelector('.a6');
-      const n7 = document.querySelector('.a7');
       const n8 = document.querySelector('.a8');
+      const n9 = document.querySelector('.a9');
+      const n11 = document.querySelector('.a11');
+      const n13 = document.querySelector('.a13');
       
       const a1 = annotate(n1, { type: 'highlight', color: '#3be37332'});
       const a2 = annotate(n2, { type: 'highlight', color: '#97e72e51' });
       const a3 = annotate(n3, { type: 'highlight', color: '#33f3432f'  });
       const a4 = annotate(n4, { type: 'highlight', color: '#f3e6335b'  });
-      const a5 = annotate(n5, { type: 'underline', color: '#48d800d5'  });
+      const a5 = annotate(n5, { type: 'highlight', color: '#48d8005e'  });
       const a6 = annotate(n6, { type: 'highlight', color: '#58f74947'  });
-      const a7 = annotate(n7, { type: 'circle', color: '#33f3433d', padding: 5});
       const a8 = annotate(n8, { type: 'highlight', color: '#aeeb0835' });
+      const a9 = annotate(n9, { type: 'underline', color: '#6cace446' });
+      const a11 = annotate(n11, { type: 'underline', color: '#ffb71c6e' });
+      const a13 = annotate(n13, { type: 'underline', color: '#6cace446' });
 
-      const ag = annotationGroup([a6, a2, a4, a8, a5, a3, a1, a7]);
+      const ag = annotationGroup([a6, a2, a4, a9, a11, a13, a8, a5, a3, a1]);
       ag.show();
 
     </script>
 
-<style>
-
-  n{
-    color: #12eb1647;
-  }
-</style>
 </body>
 
 </html>
