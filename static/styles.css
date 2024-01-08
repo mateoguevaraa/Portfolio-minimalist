@@ -142,3 +142,11 @@ button.cv:hover {
 #descripción p {
     color:rgba(0, 0, 0, 0.707)
 }
+
+#contacto a:hover {
+    color: #000000a6 !important;
+}
+
+#descripción a:hover {
+    color: #000000a6 !important;
+}
