@@ -40,10 +40,18 @@
         z-index: 1000;
     }
 
+    .arg {
+        display: inline !important;
+    }
+
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .arg {
+        display: inline !important;
+    }
     
 }
 
@@ -149,4 +157,25 @@ button.cv:hover {
 
 #descripción a:hover {
     color: #000000a6 !important;
+}
+
+.dropdown-menu {
+    min-width: 3rem !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: black;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    background-color: transparent !important; /* Change the background color on hover */
+    color: black !important; /* Change the text color on hover */
+}
+
+.arg {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: -8px !important;
 }
